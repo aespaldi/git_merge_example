@@ -7,3 +7,7 @@ get '/session' do
 	@user="bob"
 	@color="red"
 end
+
+get '/posts' do
+  @bike = "mountain bike"
+end
