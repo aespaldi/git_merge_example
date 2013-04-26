@@ -3,6 +3,6 @@ get '/' do
   erb :index
 end
 
-post '/session' do
-	#session data here
+get '/session' do
+	@user="bob"
 end
