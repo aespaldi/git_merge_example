@@ -5,4 +5,5 @@ end
 
 get '/session' do
 	@user="bob"
+	@color = "monkey_puke_green"
 end
